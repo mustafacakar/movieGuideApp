@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <group
+        android:id="@+id/group1"
+        android:checkableBehavior="single">
+        <item
+            android:id="@+id/nav_movies"
+            android:icon="@mipmap/ic_movie_black_24dp"
+            android:iconTint="@android:color/darker_gray"
+            android:title="@string/movies" />
+        <item
+            android:id="@+id/nav_tv_shows"
+            android:icon="@mipmap/ic_tv_black_24dp"
+            android:iconTint="@android:color/darker_gray"
+            android:title="@string/tv_shows" />
+    </group>
+
+    <group
+        android:id="@+id/group2"
+        android:checkableBehavior="single">
+        <item
+            android:id="@+id/nav_favorites"
+            android:icon="@mipmap/ic_favorite_black_24dp"
+            android:iconTint="@android:color/darker_gray"
+            android:title="@string/favorites" />
+    </group>
+
+    <group
+        android:id="@+id/group3"
+        android:checkableBehavior="none">
+        <item
+            android:id="@+id/nav_about"
+            android:icon="@mipmap/ic_info_outline_black_24dp"
+            android:iconTint="@android:color/darker_gray"
+            android:title="@string/about" />
+    </group>
+
+    <group
+        android:id="@+id/group4"
+        android:checkableBehavior="none">
+        <item
+            android:id="@+id/nav_login"
+            android:icon="@drawable/ic_person_outline_black_24dp"
+            android:iconTint="@android:color/darker_gray"
+            android:title="Login" />
+    </group>
+
+</menu>
