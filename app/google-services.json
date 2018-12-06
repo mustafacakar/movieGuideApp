@@ -1,0 +1,42 @@
+{
+  "project_info": {
+    "project_number": "696236877891",
+    "firebase_url": "https://movieguideapp.firebaseio.com",
+    "project_id": "movieguideapp",
+    "storage_bucket": "movieguideapp.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:696236877891:android:08f5e4371b554366",
+        "android_client_info": {
+          "package_name": "com.homeless.hommie"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "696236877891-5n43i500eeeqp9qqkaipqojcvih2165p.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDExzwUaDXYPh7L9QpiXlv1AlbukpyEzN0"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 1,
+          "other_platform_oauth_client": []
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
