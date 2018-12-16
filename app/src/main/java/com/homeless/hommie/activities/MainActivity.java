@@ -147,7 +147,7 @@ public class MainActivity extends AppCompatActivity implements NavigationView.On
                 startActivity(intent);
                 return false;
             case R.id.nav_login:
-                Intent intentLogin = new Intent(MainActivity.this,LoginActivity.class);
+                Intent intentLogin = new Intent(MainActivity.this,GoogleSignInActivity.class);
                 startActivity(intentLogin);
         }
 
