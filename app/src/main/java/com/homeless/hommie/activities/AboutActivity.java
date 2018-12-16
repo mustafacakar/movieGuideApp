@@ -110,7 +110,7 @@ public class AboutActivity extends AppCompatActivity {
             @Override
             public void onClick(View view) {
                 view.performHapticFeedback(HapticFeedbackConstants.VIRTUAL_KEY);
-                String attributionsLink = "https://github.com/hitanshu-dhawan/" + getResources().getString(R.string.app_name) + "/blob/master/ATTRIBUTIONS.md";
+                String attributionsLink = "https://github.com/mustafacakar/" + getResources().getString(R.string.app_name) + "/blob/master/ATTRIBUTIONS.md";
                 Intent attributionsIntent = new Intent(Intent.ACTION_VIEW, Uri.parse(attributionsLink));
                 startActivity(attributionsIntent);
             }

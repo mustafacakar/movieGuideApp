@@ -12,7 +12,7 @@
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
         <activity
-            android:name="com.homeless.hommie.activities.SplashActivity"
+            android:name=".activities.SplashActivity"
             android:screenOrientation="portrait"
             android:theme="@style/SplashTheme">
             <intent-filter>
@@ -22,49 +22,55 @@
             </intent-filter>
         </activity>
         <activity
-            android:name="com.homeless.hommie.activities.IntroActivity"
+            android:name=".activities.IntroActivity"
             android:screenOrientation="portrait"
-            android:theme="@style/AppTheme.NoActionBar"/>
+            android:theme="@style/AppTheme.NoActionBar" />
         <activity
-            android:name="com.homeless.hommie.activities.MainActivity"
+            android:name=".activities.MainActivity"
             android:label="@string/app_name"
             android:screenOrientation="portrait"
             android:theme="@style/AppTheme.NoActionBar" />
         <activity
-            android:name="com.homeless.hommie.activities.MovieDetailActivity"
+            android:name=".activities.MovieDetailActivity"
             android:label="@string/title_activity_movie_detail"
             android:screenOrientation="portrait"
             android:theme="@style/AppTheme.NoActionBar.DetailScreen" />
         <activity
-            android:name="com.homeless.hommie.activities.PersonDetailActivity"
+            android:name=".activities.PersonDetailActivity"
             android:label="@string/title_activity_cast_detail"
             android:screenOrientation="portrait"
             android:theme="@style/AppTheme.NoActionBar.DetailScreen" />
         <activity
-            android:name="com.homeless.hommie.activities.ViewAllMoviesActivity"
+            android:name=".activities.ViewAllMoviesActivity"
             android:label="@string/title_activity_view_all_movies"
             android:screenOrientation="portrait"
             android:theme="@style/AppTheme.NoActionBar" />
         <activity
-            android:name="com.homeless.hommie.activities.ViewAllTVShowsActivity"
+            android:name=".activities.ViewAllTVShowsActivity"
             android:label="@string/title_activity_view_all_tvshows"
             android:screenOrientation="portrait"
             android:theme="@style/AppTheme.NoActionBar" />
         <activity
-            android:name="com.homeless.hommie.activities.TVShowDetailActivity"
+            android:name=".activities.TVShowDetailActivity"
             android:label="@string/title_activity_tvshow_detail"
             android:screenOrientation="portrait"
             android:theme="@style/AppTheme.NoActionBar.DetailScreen" />
         <activity
-            android:name="com.homeless.hommie.activities.AboutActivity"
+            android:name=".activities.AboutActivity"
             android:label="@string/title_activity_about"
             android:screenOrientation="portrait"
             android:theme="@style/AppTheme.NoActionBar" />
         <activity
-            android:name="com.homeless.hommie.activities.SearchActivity"
+            android:name=".activities.SearchActivity"
             android:label="@string/title_activity_search"
             android:screenOrientation="portrait"
             android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".activities.LoginActivity"
+            android:label="LoginActivity"
+            android:screenOrientation="portrait"
+            android:theme="@style/AppTheme.NoActionBar"/>
+
     </application>
 
 </manifest>
