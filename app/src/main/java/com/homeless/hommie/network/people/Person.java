@@ -2,9 +2,6 @@ package com.homeless.hommie.network.people;
 
 import com.google.gson.annotations.SerializedName;
 
-/**
- * Created by hitanshu on 3/8/17.
- */
 
 public class Person {
 

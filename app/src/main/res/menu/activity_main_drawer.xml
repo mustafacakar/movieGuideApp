@@ -43,7 +43,7 @@
             android:id="@+id/nav_login"
             android:icon="@drawable/ic_person_outline_black_24dp"
             android:iconTint="@android:color/darker_gray"
-            android:title="Login" />
+            android:title="Giriş Yap" />
     </group>
 
 </menu>

@@ -18,9 +18,6 @@ import java.util.ArrayList;
 import java.util.List;
 import java.util.Scanner;
 
-/**
- * Created by hitanshu on 10/9/17.
- */
 
 public class SearchAsyncTaskLoader extends AsyncTaskLoader<SearchResponse> {
 

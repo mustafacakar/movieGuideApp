@@ -1,66 +1,66 @@
 <resources>
-    <string name="app_name">PopCorn</string>
+    <string name="app_name">Movie Guide</string>
     <string name="MOVIE_DB_API_KEY">2628d1c86529e4ff3b39af76f592d8cb</string>
     <string name="navigation_drawer_open">Open navigation drawer</string>
     <string name="navigation_drawer_close">Close navigation drawer</string>
 
-    <string name="movies">Movies</string>
-    <string name="tv_shows">TV Shows</string>
-    <string name="favorites">Favorites</string>
-    <string name="settings">Settings</string>
-    <string name="about">About</string>
-    <string name="login">Login</string>
+    <string name="movies">Filmler</string>
+    <string name="tv_shows">Diziler</string>
+    <string name="favorites">Favoriler</string>
+    <string name="settings">Ayarlar</string>
+    <string name="about">Hakkımızda</string>
+    <string name="login">Giriş Yap</string>
 
-    <string name="now_showing">Now Showing</string>
-    <string name="popular">Popular</string>
-    <string name="upcoming">Upcoming</string>
-    <string name="top_rated">Top Rated</string>
-    <string name="airing_today">Airing Today</string>
-    <string name="on_the_air">On The Air</string>
-    <string name="view_all">View All</string>
+    <string name="now_showing">Vizyondakiler</string>
+    <string name="popular">Popüler</string>
+    <string name="upcoming">Yakında</string>
+    <string name="top_rated">Yüksek Puanlılar</string>
+    <string name="airing_today">Bugün</string>
+    <string name="on_the_air">Yayındakiler</string>
+    <string name="view_all">Daha Fazla</string>
 
-    <string name="now_showing_movies">Now Showing Movies</string>
-    <string name="popular_movies">Popular Movies</string>
-    <string name="upcoming_movies">Upcoming Movies</string>
-    <string name="top_rated_movies">Top Rated Movies</string>
+    <string name="now_showing_movies">Gösterimdeki Filmler</string>
+    <string name="popular_movies">Populer Filmler</string>
+    <string name="upcoming_movies">Gelecek Filmler</string>
+    <string name="top_rated_movies">Yüksek Puanlı Filmler</string>
 
-    <string name="airing_today_tv_shows">Airing Today TV Shows</string>
-    <string name="on_the_air_tv_shows">On The Air TV Shows</string>
-    <string name="popular_tv_shows">Popular TV Shows</string>
-    <string name="top_rated_tv_shows">Top Rated TV Shows</string>
+    <string name="airing_today_tv_shows">Bugün Yayınlanacak Diziler</string>
+    <string name="on_the_air_tv_shows">Yayındaki Diziler</string>
+    <string name="popular_tv_shows">Popüler Diziler</string>
+    <string name="top_rated_tv_shows">Yüksek Puanlı Diziler</string>
 
-    <string name="share">Share</string>
-    <string name="rate_us">Rate Us</string>
-    <string name="feedback">Feedback</string>
+    <string name="share">Paylaş</string>
+    <string name="rate_us">Derecelendir</string>
+    <string name="feedback">Geri Bildirim</string>
     <string name="source_code_on_github">Source code on GitHub</string>
     <string name="open_source_licenses">Open Source Licenses</string>
     <string name="version">Version</string>
 
-    <string name="read_more">Read More</string>
-    <string name="movie_details">Release Date  \nRuntime  </string>
-    <string name="trailers">Trailers</string>
-    <string name="cast">Cast</string>
-    <string name="similar_movies">Similar Movies</string>
-    <string name="biography">Biography</string>
-    <string name="movie_cast">Movie Cast</string>
-    <string name="tv_cast">TV Cast</string>
-    <string name="tv_show_details">First Air Date  \nRuntime  \nStatus  \nOrigin Country  \nNetworks  </string>
-    <string name="videos">Videos</string>
-    <string name="similar_tv_shows">Similar TV Shows</string>
+    <string name="read_more">Daha Fazla</string>
+    <string name="movie_details">Çıkış Tarihi  \nSüre  </string>
+    <string name="trailers">Fragmanlar</string>
+    <string name="cast">Oyuncu Kadrosu</string>
+    <string name="similar_movies">Benzer Filmler</string>
+    <string name="biography">Biyografi</string>
+    <string name="movie_cast">Film Kadrosu</string>
+    <string name="tv_cast">Dizi Kadrosu</string>
+    <string name="tv_show_details">Gösterim Tarihi  \nSüre  \nDurum  \nÜlke  \nKanal  </string>
+    <string name="videos">Videolar</string>
+    <string name="similar_tv_shows">Benzer Diziler</string>
 
-    <string name="no_fav_movies">No Favourite Movies</string>
-    <string name="no_fav_tv_shows">No Favourite TV Shows</string>
+    <string name="no_fav_movies">Henüz Favori Filmlerini Seçmedin</string>
+    <string name="no_fav_tv_shows">Henüz Favori Dizilerini Seçmedin</string>
 
-    <string name="search_movies_tv_shows_people">Search Movies, TV Shows, People</string>
-    <string name="search">Search</string>
-    <string name="no_results_found">No results found</string>
-    <string name="movie">Movie</string>
-    <string name="tv_show">TV Show</string>
-    <string name="person">Person</string>
+    <string name="search_movies_tv_shows_people">Keşfet</string>
+    <string name="search">Arama</string>
+    <string name="no_results_found">Bir Sonuç Bulunamadı</string>
+    <string name="movie">Film</string>
+    <string name="tv_show">Dizi</string>
+    <string name="person">Kişi</string>
 
-    <string name="no_network">No internet connection</string>
+    <string name="no_network">Internet bağlantısı bulunamadı.</string>
 
-    <string name="press_again_to_exit">Press again to exit</string>
+    <string name="press_again_to_exit">Çıkış için tekrar basınız.</string>
     <string name="title_activity_movie_detail">MovieDetailActivity</string>
     <string name="title_activity_cast_detail">CastDetailActivity</string>
     <string name="title_activity_view_all_movies">ViewAllMoviesActivity</string>
@@ -104,9 +104,9 @@
     <string name="sign_in">Sign In</string>
     <string name="create_account">Create Account</string>
     <string name="send_link">Send Link</string>
-    <string name="sign_out">Sign Out</string>
+    <string name="sign_out">Çıkış Yap</string>
     <string name="verify_email">Verify Email</string>
-    <string name="disconnect">Disconnect</string>
+    <string name="disconnect">Bağlantıyı Kes</string>
     <string name="loading">Loading…</string>
     <string name="custom_token">Custom Token</string>
     <string name="signed_in">Signed In</string>
@@ -131,7 +131,7 @@
     <string name="firebase_user_management">Firebase User Management</string>
 
     <string name="google_status_fmt">Google User: %s</string>
-    <string name="google_title_text">Google Sign In</string>
+    <string name="google_title_text">Google ile Bağlan</string>
 
     <string name="facebook_status_fmt">Facebook User: %s</string>
     <string name="facebook_title_text">Facebook Login</string>

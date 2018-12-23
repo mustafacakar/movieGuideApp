@@ -2,9 +2,6 @@ package com.homeless.hommie.network.search;
 
 import java.util.List;
 
-/**
- * Created by hitanshu on 15/8/17.
- */
 
 public class SearchResponse {
 

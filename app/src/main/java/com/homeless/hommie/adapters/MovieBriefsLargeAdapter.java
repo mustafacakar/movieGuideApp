@@ -24,9 +24,7 @@ import com.homeless.hommie.utils.MovieGenres;
 
 import java.util.List;
 
-/**
- * Created by hitanshu on 30/7/17.
- */
+
 
 public class MovieBriefsLargeAdapter extends RecyclerView.Adapter<MovieBriefsLargeAdapter.MovieViewHolder> {
 

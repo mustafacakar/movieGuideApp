@@ -5,6 +5,11 @@ import android.content.Context;
 import android.database.Cursor;
 import android.database.sqlite.SQLiteDatabase;
 
+import com.google.firebase.auth.FirebaseAuth;
+import com.google.firebase.database.DatabaseReference;
+import com.google.firebase.database.FirebaseDatabase;
+import com.google.firebase.storage.FirebaseStorage;
+import com.google.firebase.storage.StorageReference;
 import com.homeless.hommie.database.DatabaseHelper;
 import com.homeless.hommie.network.movies.MovieBrief;
 import com.homeless.hommie.network.tvshows.TVShowBrief;
@@ -12,11 +17,9 @@ import com.homeless.hommie.network.tvshows.TVShowBrief;
 import java.util.ArrayList;
 import java.util.List;
 
-/**
- * Created by hitanshu on 9/8/17.
- */
 
 public class Favourite {
+
 
     //MOVIES
 
@@ -76,6 +79,8 @@ public class Favourite {
         }
         cursor.close();
         database.close();
+
+
         return favMovies;
     }
 

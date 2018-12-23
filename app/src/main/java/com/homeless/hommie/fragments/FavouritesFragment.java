@@ -12,9 +12,6 @@ import com.homeless.hommie.R;
 import com.homeless.hommie.adapters.FavouritesPagerAdapter;
 import com.ogaclejapan.smarttablayout.SmartTabLayout;
 
-/**
- * Created by hitanshu on 10/8/17.
- */
 
 public class FavouritesFragment extends Fragment {
 

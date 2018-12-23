@@ -18,9 +18,6 @@ import com.homeless.hommie.utils.Constants;
 
 import java.util.List;
 
-/**
- * Created by hitanshu on 13/8/17.
- */
 
 public class TVShowCastAdapter extends RecyclerView.Adapter<TVShowCastAdapter.CastViewHolder> {
 

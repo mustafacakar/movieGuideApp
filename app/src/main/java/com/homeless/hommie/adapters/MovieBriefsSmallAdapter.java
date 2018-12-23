@@ -22,9 +22,6 @@ import com.homeless.hommie.utils.Favourite;
 
 import java.util.List;
 
-/**
- * Created by hitanshu on 31/7/17.
- */
 
 public class MovieBriefsSmallAdapter extends RecyclerView.Adapter<MovieBriefsSmallAdapter.MovieViewHolder> {
 

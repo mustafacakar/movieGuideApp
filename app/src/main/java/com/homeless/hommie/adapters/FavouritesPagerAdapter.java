@@ -9,9 +9,7 @@ import com.homeless.hommie.R;
 import com.homeless.hommie.fragments.FavouriteMoviesFragment;
 import com.homeless.hommie.fragments.FavouriteTVShowsFragment;
 
-/**
- * Created by hitanshu on 10/8/17.
- */
+
 
 public class FavouritesPagerAdapter extends FragmentPagerAdapter {
 

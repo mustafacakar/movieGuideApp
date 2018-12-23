@@ -22,9 +22,7 @@ import com.homeless.hommie.utils.Favourite;
 
 import java.util.List;
 
-/**
- * Created by hitanshu on 13/8/17.
- */
+
 
 public class TVShowBriefsSmallAdapter extends RecyclerView.Adapter<TVShowBriefsSmallAdapter.TVShowViewHolder> {
 

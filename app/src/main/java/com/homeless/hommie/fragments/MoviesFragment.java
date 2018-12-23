@@ -41,9 +41,6 @@ import retrofit2.Call;
 import retrofit2.Callback;
 import retrofit2.Response;
 
-/**
- * Created by hitanshu on 30/7/17.
- */
 
 public class MoviesFragment extends Fragment {
 

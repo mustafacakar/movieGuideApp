@@ -2,9 +2,6 @@ package com.homeless.hommie.network.tvshows;
 
 import com.google.gson.annotations.SerializedName;
 
-/**
- * Created by hitanshu on 13/8/17.
- */
 
 public class Genre {
 

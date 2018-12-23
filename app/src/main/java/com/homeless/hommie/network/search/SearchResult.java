@@ -1,8 +1,6 @@
 package com.homeless.hommie.network.search;
 
-/**
- * Created by hitanshu on 15/8/17.
- */
+
 
 public class SearchResult {
 

@@ -7,9 +7,7 @@ import android.content.Intent;
 import com.homeless.hommie.utils.NetworkConnection;
 
 
-/**
- * Created by hitanshu on 26/8/17.
- */
+
 
 public class ConnectivityBroadcastReceiver extends BroadcastReceiver {
 

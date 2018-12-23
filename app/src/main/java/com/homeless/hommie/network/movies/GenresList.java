@@ -4,10 +4,6 @@ import com.google.gson.annotations.SerializedName;
 
 import java.util.List;
 
-/**
- * Created by hitanshu on 13/8/17.
- */
-
 public class GenresList {
 
     @SerializedName("genres")

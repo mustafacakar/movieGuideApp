@@ -2,9 +2,7 @@ package com.homeless.hommie.network.movies;
 
 import com.google.gson.annotations.SerializedName;
 
-/**
- * Created by hitanshu on 2/8/17.
- */
+
 
 public class MovieCrewBrief {
 

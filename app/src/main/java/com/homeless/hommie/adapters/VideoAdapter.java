@@ -19,9 +19,7 @@ import com.homeless.hommie.utils.Constants;
 
 import java.util.List;
 
-/**
- * Created by hitanshu on 2/8/17.
- */
+
 
 public class VideoAdapter extends RecyclerView.Adapter<VideoAdapter.VideoViewHolder> {
 

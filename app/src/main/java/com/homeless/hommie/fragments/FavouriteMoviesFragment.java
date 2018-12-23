@@ -18,9 +18,7 @@ import com.homeless.hommie.utils.Favourite;
 import java.util.ArrayList;
 import java.util.List;
 
-/**
- * Created by hitanshu on 10/8/17.
- */
+
 
 public class FavouriteMoviesFragment extends Fragment {
 

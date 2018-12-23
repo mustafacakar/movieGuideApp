@@ -24,9 +24,7 @@ import com.homeless.hommie.utils.TVShowGenres;
 
 import java.util.List;
 
-/**
- * Created by hitanshu on 13/8/17.
- */
+
 
 public class TVShowBriefsLargeAdapter extends RecyclerView.Adapter<TVShowBriefsLargeAdapter.TVShowViewHolder> {
 

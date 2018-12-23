@@ -5,10 +5,6 @@ import com.homeless.hommie.network.tvshows.Genre;
 import java.util.HashMap;
 import java.util.List;
 
-/**
- * Created by hitanshu on 13/8/17.
- */
-
 public class TVShowGenres {
 
     private static HashMap<Integer, String> genresMap;

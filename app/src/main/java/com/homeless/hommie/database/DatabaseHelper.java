@@ -3,7 +3,13 @@ package com.homeless.hommie.database;
 import android.content.Context;
 import android.database.sqlite.SQLiteDatabase;
 import android.database.sqlite.SQLiteOpenHelper;
+import android.os.storage.StorageManager;
 
+import com.google.firebase.auth.FirebaseAuth;
+import com.google.firebase.database.DatabaseReference;
+import com.google.firebase.database.FirebaseDatabase;
+import com.google.firebase.storage.FirebaseStorage;
+import com.google.firebase.storage.StorageReference;
 
 
 public class DatabaseHelper extends SQLiteOpenHelper {
@@ -35,6 +41,8 @@ public class DatabaseHelper extends SQLiteOpenHelper {
                 + NAME + " TEXT )";
         sqLiteDatabase.execSQL(queryCreateMovieTable);
         sqLiteDatabase.execSQL(queryCreateTVShowTable);
+
+
     }
 
     @Override

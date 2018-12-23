@@ -3,9 +3,6 @@ package com.homeless.hommie.network;
 import retrofit2.Retrofit;
 import retrofit2.converter.gson.GsonConverterFactory;
 
-/**
- * Created by hitanshu on 27/7/17.
- */
 
 public class ApiClient {
 

@@ -41,9 +41,7 @@ import retrofit2.Call;
 import retrofit2.Callback;
 import retrofit2.Response;
 
-/**
- * Created by hitanshu on 13/8/17.
- */
+
 
 public class TVShowsFragment extends Fragment {
 

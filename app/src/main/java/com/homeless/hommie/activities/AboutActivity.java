@@ -90,7 +90,7 @@ public class AboutActivity extends AppCompatActivity {
                 view.performHapticFeedback(HapticFeedbackConstants.VIRTUAL_KEY);
                 Intent feedbackIntent = new Intent(Intent.ACTION_SENDTO);
                 feedbackIntent.setData(Uri.parse("mailto:"));
-                feedbackIntent.putExtra(Intent.EXTRA_EMAIL, new String[]{"hitanshudhawan1996@gmail.com"});
+                feedbackIntent.putExtra(Intent.EXTRA_EMAIL, new String[]{"mustafacakar54@hotmail.com"});
                 feedbackIntent.putExtra(Intent.EXTRA_SUBJECT, "Feedback: " + getResources().getString(R.string.app_name));
                 startActivity(feedbackIntent);
             }
@@ -100,7 +100,7 @@ public class AboutActivity extends AppCompatActivity {
             @Override
             public void onClick(View view) {
                 view.performHapticFeedback(HapticFeedbackConstants.VIRTUAL_KEY);
-                String githubLink = "https://github.com/hitanshu-dhawan/" + getResources().getString(R.string.app_name);
+                String githubLink = "https://github.com/mustafacakar/" + getResources().getString(R.string.app_name);
                 Intent githubIntent = new Intent(Intent.ACTION_VIEW, Uri.parse(githubLink));
                 startActivity(githubIntent);
             }

@@ -4,9 +4,6 @@ import com.google.gson.annotations.SerializedName;
 
 import java.util.List;
 
-/**
- * Created by hitanshu on 3/8/17.
- */
 
 public class SimilarMoviesResponse {
 
